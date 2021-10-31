@@ -1,0 +1,16 @@
+.shiftRight{
+  float: right;
+}
+
+.card{
+  display: inline-block;
+  margin:5px;
+}
+
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:3%;
+  background-color: #2C394B;
+}
