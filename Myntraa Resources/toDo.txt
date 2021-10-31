@@ -1,0 +1,33 @@
+1)Removing Deals of the day,BIGGEST DEALS ON TOP BRANDS and replacing them with Our Products.
+2)Our products section will have 50 products listed randomly.
+3)Including categories to bag and Explore top brand section with some changes in style(if time is left)
+4)Change the styling of the footer(secondary)
+4)Changing navbar using bootstrap with studio section(with styles) and adding carousel after the already present carousel.
+ and adding a section for influencers for selling(will require signup page for influencer and normal user)
+5)Secondary task(adding login for influencer section)
+
+6)Styling for mens section can be used for invidual influencers recommended products.
+
+
+#EJS files to be added
+1)Influencer recommended product page(same theme as home/men section)
+2)Most loved products by influencers
+
+
+#DBs to be added
+1)Influencers -(follower count,likes count,share count,posts,etc)
+
+
+#How to determine the sorting factor for influencers and products
+1)Making a equation for for influencers & products.
+
+
+https://codepen.io/msichterman/pen/zVmEpG (Nice Card)
+
+Card Ideas:
+https://www.w3schools.com/howto/howto_js_dropdown.asp
+https://codepen.io/hatena19/pen/QWMMadg
+
+
+Express Routing Parameters:
+Useful for Individual Influencers page , which can be used to get the data fro  the database and then render it using EJS
