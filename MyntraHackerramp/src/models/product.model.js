@@ -28,7 +28,7 @@ const productSchema = new mongoose.Schema(
       }
     ],
     Likes:{type:Number,required:true},
-    dFactor:{type:Number,required:true}
+    dFactor:{type:Number,required:true} //sizeof(recommandedBy Array)/Likes *100
   },
   {
     versionKey: false,
