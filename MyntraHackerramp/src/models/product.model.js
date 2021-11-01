@@ -27,8 +27,8 @@ const productSchema = new mongoose.Schema(
         influencerName:{type:String,required:true}
       }
     ],
-    Likes:{type:Number,required:true}
-    
+    Likes:{type:Number,required:true},
+    dFactor:{type:Number,required:true}
   },
   {
     versionKey: false,
