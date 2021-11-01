@@ -2,6 +2,7 @@ const mongoose = require("mongoose");
 
 const productSchema = new mongoose.Schema(
   {
+    productId:{type:String ,required: true},
     brandName: { type: String, required: true },
     category: { type: String, required: true },
     description: { type: String, required: false },
@@ -19,6 +20,15 @@ const productSchema = new mongoose.Schema(
     tagIds: [
       { type: mongoose.Schema.Types.ObjectId, ref: "tag", required: false },
     ],
+
+    recommandedBy:[
+      {
+        influencerId:{type:String,requied:true},
+        influencerName:{type:String,required:true}
+      }
+    ],
+    Likes:{type:Number,required:true}
+    
   },
   {
     versionKey: false,
