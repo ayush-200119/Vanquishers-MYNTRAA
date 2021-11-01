@@ -8,7 +8,7 @@ const influencerSchema = new mongoose.Schema(
        image:{type:String, required:true},
        gender:{type:String,required:true},
        followers:{type:Number,required:true},
-
+        
        recommendedProducts:product.schema,
 
    }
