@@ -16,6 +16,8 @@ const productSchema = new mongoose.Schema(
     colorIds: [
       { type: mongoose.Schema.Types.ObjectId, ref: "color", required: false },
     ],
+
+    //sizes,color,discount can be removed
     gender: { type: String, required: true },
     tagIds: [
       { type: mongoose.Schema.Types.ObjectId, ref: "tag", required: false },
@@ -26,9 +28,9 @@ const productSchema = new mongoose.Schema(
         influencerId:{type:String,requied:true},
         influencerName:{type:String,required:true}
       }
-    ],
+    ],//suggestions:can add influencer schema to it for simplicity
     Likes:{type:Number,required:true},
-    dFactor:{type:Number,required:true} //sizeof(recommandedBy Array)/Likes *100
+    dFactor:{type:Number,required:false} //sizeof(recommandedBy Array)/Likes *100
   },
   {
     versionKey: false,
