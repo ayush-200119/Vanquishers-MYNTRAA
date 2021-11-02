@@ -8,14 +8,14 @@ const productSchema = new mongoose.Schema(
     description: { type: String, required: false },
     productName: { type: String, required: true },
     price: { type: Number, required: true },
-    quantity: { type: Number, required: false },
+    // quantity: { type: Number, required: false },
     images: [{ type: String, required: true }],
     discount: { type: Number, required: false },
-    sizes: [{ type: String, required: false }],
-    color: { type: String, required: false },
-    colorIds: [
-      { type: mongoose.Schema.Types.ObjectId, ref: "color", required: false },
-    ],
+    // sizes: [{ type: String, required: false }],
+    // color: { type: String, required: false },
+    // colorIds: [
+    //   { type: mongoose.Schema.Types.ObjectId, ref: "color", required: false },
+    // ],
     gender: { type: String, required: true },
     tagIds: [
       { type: mongoose.Schema.Types.ObjectId, ref: "tag", required: false },
@@ -23,12 +23,12 @@ const productSchema = new mongoose.Schema(
 
     recommandedBy:[
       {
-        influencerId:{type:String,requied:true},
+        influencerId:{type:Number,requied:true},
         influencerName:{type:String,required:true}
       }
     ],
     Likes:{type:Number,required:true},
-    dFactor:{type:Number,required:true} //sizeof(recommandedBy Array)/Likes *100
+    dFactor:{type:Number,required:false} //sizeof(recommandedBy Array)/Likes *100
   },
   {
     versionKey: false,
