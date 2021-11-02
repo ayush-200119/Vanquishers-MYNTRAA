@@ -11,11 +11,21 @@ const productSchema = new mongoose.Schema(
     // quantity: { type: Number, required: false },
     images: [{ type: String, required: true }],
     discount: { type: Number, required: false },
+<<<<<<< HEAD
     // sizes: [{ type: String, required: false }],
     // color: { type: String, required: false },
     // colorIds: [
     //   { type: mongoose.Schema.Types.ObjectId, ref: "color", required: false },
     // ],
+=======
+    sizes: [{ type: String, required: false }],
+    color: { type: String, required: false },
+    colorIds: [
+      { type: mongoose.Schema.Types.ObjectId, ref: "color", required: false },
+    ],
+
+    //sizes,color,discount can be removed
+>>>>>>> origin
     gender: { type: String, required: true },
     tagIds: [
       { type: mongoose.Schema.Types.ObjectId, ref: "tag", required: false },
@@ -26,7 +36,7 @@ const productSchema = new mongoose.Schema(
         influencerId:{type:Number,requied:true},
         influencerName:{type:String,required:true}
       }
-    ],
+    ],//suggestions:can add influencer schema to it for simplicity
     Likes:{type:Number,required:true},
     dFactor:{type:Number,required:false} //sizeof(recommandedBy Array)/Likes *100
   },
