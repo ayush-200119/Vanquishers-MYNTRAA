@@ -1,8 +1,9 @@
 const mongoose = require("mongoose");
-const product =requires(__dirname+"/product.model.js");
+const product =require(__dirname+"/product.model.js");
 
 const influencerSchema = new mongoose.Schema(
    {
+     influencerId:{type:Number,required:true},
        name:{type:String, required:true},
        description:{type:String,required:false},
        image:{type:String, required:true},

@@ -1,9 +1,13 @@
 const express = require("express");
-
+const product =require(__dirname+"/../models/product.model.js");
+const productDataArray=require(__dirname+"/../productData.js");
 const router = express.Router();
 
+const Product=product.modal;
+
 router.get("/", async (req, res) => {
-  return res.render("ejs/home", {});
+  console.log(productDataArray);
+  return res.render("ejs/home", {productDataArray:productDataArray});
 });
 
 router.get("/user/:id", async (req, res) => {

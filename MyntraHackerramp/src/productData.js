@@ -1,5 +1,6 @@
-const product =requires(__dirname+"/models/product.model.js");
+const product =require(__dirname+"/models/product.model.js");
 const Product=product.model;
+let productDataArray=[];
 
 const product1= new Product({
     brandName:"Levis",
@@ -22,8 +23,10 @@ const product1= new Product({
             influencerName:"Influencer5"
         }
     ],
-    Likes=100
+    Likes:100
 });
+
+productDataArray.push(product1);
 
 const product2= new Product({
     brandName:"Peter England",
@@ -46,8 +49,10 @@ const product2= new Product({
             influencerName:"Influencer1"
         }
     ],
-    Likes=80
+    Likes:80
 });
+
+productDataArray.push(product2);
 
 const product3= new Product({
     brandName:"Killer",
@@ -70,8 +75,9 @@ const product3= new Product({
             influencerName:"Influencer3"
         }
     ],
-    Likes=180
+    Likes:180
 });
+productDataArray.push(product3);
 
 const product4= new Product({
     brandName:"Killer",
@@ -98,8 +104,9 @@ const product4= new Product({
             influencerName:"Influencer1"
         }
     ],
-    Likes=280
+    Likes:280
 });
+productDataArray.push(product4);
 
 const product5= new Product({
     brandName:"Adidas",
@@ -130,9 +137,9 @@ const product5= new Product({
             influencerName:"Influencer10"
         }
     ],
-    Likes=150
+    Likes:150
 });
-
+productDataArray.push(product5);
 const product6= new Product({
     brandName:"Adidas",
     category:"Shoes",
@@ -162,8 +169,9 @@ const product6= new Product({
             influencerName:"Influencer10"
         }
     ],
-    Likes=159
+    Likes:159
 });
+productDataArray.push(product6);
 
 const product7= new Product({
     brandName:"Famous Saree brand",
@@ -190,9 +198,9 @@ const product7= new Product({
             influencerName:"Influencer10"
         }
     ],
-    Likes=179
+    Likes:179
 });
-
+productDataArray.push(product7);
 const product8= new Product({
     brandName:"Famous handbag brand",
     category:"Handbag",
@@ -214,9 +222,9 @@ const product8= new Product({
             influencerName:"Influencer10"
         }
     ],
-    Likes=79
+    Likes:79
 });
-
+productDataArray.push(product8);
 const product9= new Product({
     brandName:"Bata",
     category:"Flat heels",
@@ -238,8 +246,9 @@ const product9= new Product({
             influencerName:"Influencer10"
         }
     ],
-    Likes=70
+    Likes:70
 });
+productDataArray.push(product9);
 
 const product10= new Product({
     brandName:"Benetton",
@@ -258,8 +267,9 @@ const product10= new Product({
             influencerName:"Influencer4"
         }
     ],
-    Likes=78
+    Likes:78
 });
+productDataArray.push(product10);
 
 const product11= new Product({
     brandName:"HRX",
@@ -287,8 +297,9 @@ const product11= new Product({
             influencerName:"Influencer2"
         }
     ],
-    Likes=69
+    Likes:69
 });
+productDataArray.push(product11);
 
 const product12= new Product({
     brandName:"HRX",
@@ -316,8 +327,9 @@ const product12= new Product({
             influencerName:"Influencer2"
         }
     ],
-    Likes=69
+    Likes:69
 });
+productDataArray.push(product12);
 
 const product13= new Product({
     brandName:"HRX",
@@ -337,8 +349,9 @@ const product13= new Product({
             influencerName:"Influencer1"
         }
     ],
-    Likes=169
+    Likes:169
 });
+productDataArray.push(product13);
 
 const product14= new Product({
     brandName:"HRX",
@@ -365,8 +378,9 @@ const product14= new Product({
             influencerName:"Influencer4"
         }
     ],
-    Likes=980
+    Likes:980
 });
+productDataArray.push(product14);
 
 const product15= new Product({
     brandName:"Paragon",
@@ -393,8 +407,9 @@ const product15= new Product({
             influencerName:"Influencer4"
         }
     ],
-    Likes=910
+    Likes:110
 });
+productDataArray.push(product15);
 
 const product16= new Product({
     brandName:"Tommy Hilfiger",
@@ -413,8 +428,9 @@ const product16= new Product({
             influencerName:"Influencer4"
         }
     ],
-    Likes=190
+    Likes:80
 });
+productDataArray.push(product16);
 
 const product17= new Product({
     brandName:"Boat",
@@ -430,8 +446,9 @@ const product17= new Product({
             influencerName:"Influencer4"
         }
     ],
-    Likes=790
+    Likes:790
 });
+productDataArray.push(product17);
 
 const product18= new Product({
     brandName:"JBL",
@@ -455,8 +472,9 @@ const product18= new Product({
             influencerName:"Influencer3"
         }
     ],
-    Likes=40
+    Likes:40
 });
+productDataArray.push(product18);
 
 const product19= new Product({
     brandName:"Philips",
@@ -484,8 +502,9 @@ const product19= new Product({
             influencerName:"Influencer6"
         }
     ],
-    Likes=140
+    Likes:140
 });
+productDataArray.push(product19);
 
 const product20= new Product({
     brandName:"Plazo Brand",
@@ -508,9 +527,9 @@ const product20= new Product({
             influencerName:"Influencer9"
         }
     ],
-    Likes=140
+    Likes:140
 });
-
+productDataArray.push(product20);
 const product21= new Product({
     brandName:"Dupatta Shawl Brand",
     category:"Dupatta Shawl",
@@ -540,8 +559,9 @@ const product21= new Product({
             influencerName:"Influencer7"
         }
     ],
-    Likes=240
+    Likes:240
 });
+productDataArray.push(product21);
 
 const product22= new Product({
     brandName:"Levis",
@@ -560,8 +580,9 @@ const product22= new Product({
             influencerName:"Influencer9"
         },
     ],
-    Likes=67
+    Likes:67
 });
+productDataArray.push(product22);
 
 const product23= new Product({
     brandName:"Lyra",
@@ -576,8 +597,9 @@ const product23= new Product({
             influencerName:"Influencer9"
         },
     ],
-    Likes=28
+    Likes:28
 });
+productDataArray.push(product23);
 
 const product24= new Product({
     brandName:"Puma",
@@ -612,8 +634,9 @@ const product24= new Product({
             influencerName:"Influencer8"
         },
     ],
-    Likes=300
+    Likes:300
 });
+productDataArray.push(product24);
 
 const product25= new Product({
     brandName:"Jockey",
@@ -640,6 +663,10 @@ const product25= new Product({
             influencerName:"Influencer6"
         },
     ],
-    Likes=28
+    Likes:28
 });
 
+productDataArray.push(product25);
+
+    
+module.exports=productDataArray;
