@@ -8,7 +8,7 @@ const router = express.Router();
 
 
 router.get("/", async (req, res) => {
-  console.log(productDataArray);
+  // console.log(productDataArray);
   return res.render("ejs/home", {productDataArray:productDataArray,influencerDataArray:influencerDataArray});
 });
 

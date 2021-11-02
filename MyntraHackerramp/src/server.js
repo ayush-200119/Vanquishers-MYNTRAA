@@ -11,6 +11,7 @@ const connect = require("./configs/db");
 const productController = require("./controllers/product.controller");
 const productController2 = require("./controllers/product2.controller");
 
+
 const homeController = require("./controllers/home.controller");
 const addressController = require("./controllers/address.controller");
 const bagController = require("./controllers/bag.controller");
@@ -23,6 +24,9 @@ const paymentController = require("./controllers/payment.controller");
 const signinController = require("./controllers/signin.controller");
 const userController = require("./controllers/user.controller");
 
+
+const top5Influencer=require("./controllers/Top5Influencers.controller");
+const mostLovedProducts=require("./controllers/mostLovedProducts.controller");
 
 // Create the express app using middleware
 const app = express();
@@ -52,6 +56,9 @@ app.use("/moda", modaControllers);
 app.use("/payment", paymentController);
 app.use("/signin", signinController);
 app.use("/user", userController);
+
+app.use("/top5influencers",top5Influencer);
+app.use("/mostlovedproducts",mostLovedProducts);
 
 // Listen for events
 app.listen(3000, async () => {
