@@ -9,6 +9,7 @@ const influencerSchema = new mongoose.Schema(
        image:{type:String, required:true},
        gender:{type:String,required:true},
        followers:{type:Number,required:true},
+       likes:{type:Number,required:true},//represents avg likes on the prev 4 posts by the influencer
         
        recommendedProducts:[product.schema],
 
