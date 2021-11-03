@@ -36,7 +36,7 @@ const productSchema = new mongoose.Schema(
       }
     ],//suggestions:can add influencer schema to it for simplicity
     Likes:{type:Number,required:true},
-    dFactor:{type:Number,required:false} //sizeof(recommandedBy Array)/Likes *100
+    // dFactor:{type:Number,required:false} //sizeof(recommandedBy Array)/Likes *100
   },
   {
     versionKey: false,

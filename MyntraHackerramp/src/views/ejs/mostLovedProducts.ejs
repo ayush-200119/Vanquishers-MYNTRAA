@@ -1,5 +1,8 @@
 <%- include("navbar.ejs") -%>
-<div style="min-height: 800px; display: flex; justify-content: center; align-items: center;">
-<h1 >Most Loved Products</h1>
+<div style="min-height: 800px; display: flex; justify-content: center; align-items: center;flex-direction: column;">
+<!-- <h1 >Most Loved Products</h1> -->
+<% for(let i=0;i<15;i++){ %>
+    <h1><%= productDataArray[i].productName %></h1>
+<% } %>
 </div>
 <%- include("footer.ejs") -%>

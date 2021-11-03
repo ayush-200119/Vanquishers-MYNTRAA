@@ -10,6 +10,7 @@ const influencer1=new Influencer({
     gender:"Female",
     followers:25,
     likes:10,
+    comments:65,
     recommendedProducts:[product[0],product[1],product[3],product[4],product[5],product[8],product[10],product[11],product[12],product[14],product[20],product[23],product[24]]
 });
 influencers.push(influencer1);
@@ -21,6 +22,7 @@ const influencer2=new Influencer({
     gender:"Female",
     followers:30,
     likes:25,
+    comments:2,
     recommendedProducts:[product[2],product[4],product[5],product[6],product[10],product[11],product[18],product[19],product[20],product[23]]
 });
 influencers.push(influencer2);
@@ -32,6 +34,7 @@ const influencer3=new Influencer({
     gender:"Female",
     followers:20,
     likes:8,
+    comments:21,
     recommendedProducts:[product[0],product[2],product[3],product[8],product[17],product[21]]
 });
 influencers.push(influencer3);
@@ -43,6 +46,7 @@ const influencer4=new Influencer({
     gender:"Female",
     followers:40,
     likes:30,
+    comments:50,
     recommendedProducts:[product[4],product[5],product[6],product[9],product[13],product[14],product[15],product[16],product[17]]
 });
 influencers.push(influencer4);
@@ -54,6 +58,7 @@ const influencer5=new Influencer({
     gender:"Male",
     followers:45,
     likes:30,
+    comments:19,
     recommendedProducts:[product[0],product[1],product[3],product[9],product[10],product[20]]
 });
 influencers.push(influencer5);
@@ -65,6 +70,7 @@ const influencer6=new Influencer({
     gender:"Female",
     followers:27,
     likes:20,
+    comments:30,
     recommendedProducts:[product[2],product[7],product[14],product[18],product[23],product[24]]
 });
 influencers.push(influencer6);
@@ -76,6 +82,7 @@ const influencer7=new Influencer({
     gender:"Female",
     followers:38,
     likes:10,
+    comments:5,
     recommendedProducts:[product[1],product[12],product[13],product[20],product[23]]
 });
 influencers.push(influencer7);
@@ -87,6 +94,7 @@ const influencer8=new Influencer({
     gender:"Male",
     followers:59,
     likes:39,
+    comments:25,
     recommendedProducts:[product[4],product[5],product[6],product[13],product[14],product[15],product[23],product[24]]
 });
 influencers.push(influencer8);
@@ -98,6 +106,7 @@ const influencer9=new Influencer({
     gender:"Male",
     followers:49,
     likes:40,
+    comments:7,
     recommendedProducts:[product[3],product[4],product[7],product[11],product[13],product[18],product[19],product[21],product[22],product[23],product[24]]
 });
 influencers.push(influencer9);
@@ -109,6 +118,7 @@ const influencer10=new Influencer({
     gender:"Female",
     followers:46,
     likes:32,
+    comments:29,
     recommendedProducts:[product[5],product[6],product[7],product[8],product[10],product[11],product[17],product[18],product[19],product[20]]
 });
 influencers.push(influencer10);

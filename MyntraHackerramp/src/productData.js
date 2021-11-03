@@ -143,7 +143,7 @@ productDataArray.push(product5);
 const product6= new Product({
     brandName:"Adidas",
     category:"Shoes",
-    productName:"white shoes",
+    productName:"Black shoes",
     price:1000,
     images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10331501/2020/3/18/d4d07c60-88d9-43d9-aa78-9cc7712816321584508934272-US-Polo-Assn-Men-White-Colourblocked-Sneakers-84015845089331-1.jpg",
     gender:"Male And Female",
@@ -327,7 +327,7 @@ const product12= new Product({
             influencerName:"Influencer2"
         }
     ],
-    Likes:69
+    Likes:70
 });
 productDataArray.push(product12);
 
