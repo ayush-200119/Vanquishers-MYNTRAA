@@ -2,7 +2,9 @@
 <div style="min-height: 800px; display: flex; justify-content: center; align-items: center;">
 <!-- <h1 >Top 5 Influencers</h1> -->
  <% for(let i=0;i<5;i++){ %>
+
         <h1><%= influencerDataArray[i].name %></h1>
+        <!-- <a href="/top5/+<%=influencerDataArray[i].name %> "><%= influencerDataArray[i].name %></a> -->
 <% } %>
 
 </div>

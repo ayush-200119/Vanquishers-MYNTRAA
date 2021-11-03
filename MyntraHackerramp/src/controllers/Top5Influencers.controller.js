@@ -22,4 +22,21 @@ router.get("/", async (req, res) => {
     return res.render("ejs/Top5",{influencerDataArray:influencerDataArray});
   });
 
+
+  //routing for individual Influencers
+  router.get("/:influencerName", async(req,res)=>{
+    
+    const name=req.params.influencerName;
+    var foundInfluencer=influencerDataArray.find(function(inf,index){
+         if(inf.name==name)
+         {
+           return true;
+         }
+    });
+
+    return res.render("ejs/influencer",{recommendedProducts:foundInfluencer.recommendedProducts});
+
+
+  });
+
   module.exports = router;

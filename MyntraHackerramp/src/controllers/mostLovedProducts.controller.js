@@ -32,4 +32,19 @@ router.get("/", async (req, res) => {
     return res.render("ejs/mostLovedProducts.ejs",{productDataArray:productDataArray});
   });
 
+//adding routes for /:productName ... so that the influencers can be found
+
+// router.get("/:productName",async(req,res) =>{
+//    const productName=req.params.productName;
+//    const foundProduct=productDataArray.find(function(product,ind){
+//        if(product.productName==productName)
+//        {
+//          return true;
+//        }
+//    });
+
+
+
+// });
+
   module.exports = router;
