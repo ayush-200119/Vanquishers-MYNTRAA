@@ -81,10 +81,10 @@ productDataArray.push(product3);
 
 const product4= new Product({
     brandName:"Killer",
-    category:"Shorts",
-    productName:"Blue shorts",
+    category:"Rain Jackets",
+    productName:"Rain Jackets",
     price:600,
-    images:"https://images.unsplash.com/photo-1591195853828-11db59a44f6b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2hvcnRzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+    images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/4/16/83ad562a-318b-4d77-bb61-1c638cc252811618562170580-1.jpg",
     gender:"Female",
     recommandedBy:[
         {
@@ -141,11 +141,11 @@ const product5= new Product({
 });
 productDataArray.push(product5);
 const product6= new Product({
-    brandName:"Adidas",
-    category:"Shoes",
-    productName:"Black shoes",
+    brandName:"Rolex",
+    category:"Sunglasses",
+    productName:"Rolex Sunglasses",
     price:1000,
-    images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10331501/2020/3/18/d4d07c60-88d9-43d9-aa78-9cc7712816321584508934272-US-Polo-Assn-Men-White-Colourblocked-Sneakers-84015845089331-1.jpg",
+    images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13129526/2021/7/9/b3c6f009-e067-4509-b99a-b3249c3026ee1625803783317-HRX-by-Hrithik-Roshan-Unisex-Polarised-Aviator-Sunglasses-MF-2.jpg",
     gender:"Male And Female",
     recommandedBy:[
         {
@@ -174,7 +174,7 @@ const product6= new Product({
 productDataArray.push(product6);
 
 const product7= new Product({
-    brandName:"Famous Saree brand",
+    brandName:"Saree brand",
     category:"Sarees",
     productName:"Cream colour Saree",
     price:1500,
@@ -202,7 +202,7 @@ const product7= new Product({
 });
 productDataArray.push(product7);
 const product8= new Product({
-    brandName:"Famous handbag brand",
+    brandName:"handbag brand",
     category:"Handbag",
     productName:"Brown hanndbag",
     price:2000,

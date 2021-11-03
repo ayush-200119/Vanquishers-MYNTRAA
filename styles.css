@@ -12,12 +12,12 @@
 }
 .card{
   display: inline-block;
-  margin:5px;
+
   width: 280px;
 	/* height: 360px; */
 	border-radius: 15px;
-	padding: 1.5rem;
-	background: white;
+
+	background:#EEEEEE;
    transition: 0.4s ease-out;
 	box-shadow: 0px 7px 10px rgba(black, 0.5);
 
@@ -49,15 +49,10 @@
 		opacity: 0;
 }
 
-}
- .card-body{
-  position: relative;
-		z-index: 3;
-		color: white;
-		opacity: 0;
-		transform: translateY(30px);
-		transition: 0.5s;
-}
+
+ /* .card-body{
+   background: grey;
+} */
 
 /* img{
 width: 100%;
@@ -90,6 +85,6 @@ width: 100%;
 			transition: 0.4s ease;
 }
 .card-button:hover{
-				background: dodgerblue
-				color: white
+				background: dodgerblue;
+				color: white;
 }
