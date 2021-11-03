@@ -1,6 +1,9 @@
 const express = require("express");
 const influencerDataArray=require("../influencerData.js");
 const router = express.Router();
+const Influencer=require(__dirname+"/../models/influencer.model.js");
+
+
 
 function compare(a,b){
   let engagingFactor_a=(a.likes/a.followers)*100 + a.comments;
@@ -18,23 +21,40 @@ function compare(a,b){
 
 router.get("/", async (req, res) => {
     
-  influencerDataArray.sort(compare);
-    return res.render("ejs/Top5",{influencerDataArray:influencerDataArray});
+  Influencer.find({},function(err,foundInfluencers){
+    if(foundInfluencers.length===0){
+      Influencer.insertMany(influencerDataArray,function(err){
+        if(err){
+          console.log(err);
+        }else{
+          console.log("Succesfully added Infulencers data to database");
+        }
+      });
+      res.redirect("/");
+    }else{
+        foundInfluencers.sort(compare);
+        return res.render("ejs/Top5",{influencerDataArray:foundInfluencers});
+    }
   });
+});
 
 
   //routing for individual Influencers
   router.get("/:influencerName", async(req,res)=>{
     
-    const name=req.params.influencerName;
-    var foundInfluencer=influencerDataArray.find(function(inf,index){
-         if(inf.name==name)
-         {
-           return true;
-         }
-    });
+    const customName=req.params.influencerName;
+    // var foundInfluencer=influencerDataArray.find(function(inf,index){
+    //      if(inf.name==name)
+    //      {
+    //        return true;
+    //      }
+    // });
 
-    return res.render("ejs/influencer",{recommendedProducts:foundInfluencer.recommendedProducts});
+    // return res.render("ejs/influencer",{recommendedProducts:foundInfluencer.recommendedProducts});
+
+    Influencer.findOne({name:customName},function(err,foundCustomInfluencer){
+      return res.render("ejs/influencer",{recommendedProducts:foundCustomInfluencer.recommendedProducts});
+    });
 
 
   });

@@ -1,6 +1,9 @@
 const express = require("express");
 const productDataArray=require("../productData");
 const router = express.Router();
+const product =require(__dirname+"/../models/product.model.js");
+
+const Product=product.model;
 
 function compare(a,b){
   var dFactor_a=a.recommandedBy.length;
@@ -28,9 +31,16 @@ function compare(a,b){
 }
 
 router.get("/", async (req, res) => {
-    productDataArray.sort(compare);
-    return res.render("ejs/mostLovedProducts.ejs",{productDataArray:productDataArray});
+
+  Product.find({},function(err,foundMostLovedProducts){
+    if(err){
+      console.log(err);
+    }else{
+      foundMostLovedProducts.sort(compare);
+      return res.render("ejs/mostLovedProducts.ejs",{productDataArray:foundMostLovedProducts});
+    }
   });
+});
 
 //adding routes for /:productName ... so that the influencers can be found
 

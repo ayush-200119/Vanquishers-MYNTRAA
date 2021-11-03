@@ -1,4 +1,4 @@
-const Influencer=require(__dirname+"/models/influencer.modal.js");
+const Influencer=require(__dirname+"/models/influencer.model.js");
 const product=require(__dirname+"/productData.js");
 
 const influencers=[];
