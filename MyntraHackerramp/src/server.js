@@ -27,6 +27,7 @@ const userController = require("./controllers/user.controller");
 
 const top5Influencer=require("./controllers/Top5Influencers.controller");
 const mostLovedProducts=require("./controllers/mostLovedProducts.controller");
+const recommandedBy=require("./controllers/recommendBy.controller");
 
 // Create the express app using middleware
 const app = express();
@@ -59,6 +60,8 @@ app.use("/user", userController);
 
 app.use("/top5influencers",top5Influencer);
 app.use("/mostlovedproducts",mostLovedProducts);
+
+app.use("/:productName/recommendedby",recommandedBy);
 
 // Listen for events
 app.listen(3000, async () => {
