@@ -13,7 +13,7 @@
          <div class="row" style="margin-top: 15px;margin-bottom: 15px;">
           <%for(let j=i;j<5 && j<i+4;j++){ %>
             <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12" style="text-align: center; margin-top:15px; margin-bottom:15px;">
-              <div class="card" onclick="location.href='/top5influencers/<%=influencerDataArray[i].name%>';" style="cursor: pointer; width: 15rem;" >
+              <div class="card" onclick="location.href='/top5influencers/<%=influencerDataArray[j].name%>';" style="cursor: pointer; width: 15rem;" >
             
                 <img style="border-radius: 15px;max-height: 300px; object-fit: cover;" src=<%= influencerDataArray[j].image %> class="card-img-top" alt="...">
          
@@ -21,7 +21,7 @@
                   <h5 class="card-title"><%= influencerDataArray[j].name %></h5>
                   <!-- <p class="card-text"><%= influencerDataArray[j].productName %></p> -->
                   <p class="card-text"><span style="font-weight: bold;">Followers: <%= influencerDataArray[j].followers %></span></p>
-                  <div onclick="location.href='/top5influencers/<%=influencerDataArray[i].name%>';" style="cursor: pointer;">
+                  <div onclick="location.href='/top5influencers/<%=influencerDataArray[j].name%>';" style="cursor: pointer;">
                     <p class="card-text"> Recommended Products</p>
                   </div>
                 </div>
