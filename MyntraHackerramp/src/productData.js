@@ -7,6 +7,7 @@ const product1= new Product({
     category:"Shirt",
     productName:"Blue shirt",
     price:500,
+    discount:5,
     images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2020/1/17/d71045b2-4300-4395-b110-f652fa00e9e51579211471795-1.jpg",
     gender:"Male",
     recommandedBy:[
@@ -33,6 +34,7 @@ const product2= new Product({
     category:"T-Shirt",
     productName:"Yellow shirt",
     price:550,
+    discount:5,
     images:"https://5.imimg.com/data5/SH/GC/MY-8764775/mens-t-shirt-500x500.jpg",
     gender:"Male",
     recommandedBy:[
@@ -59,6 +61,7 @@ const product3= new Product({
     category:"Jeans",
     productName:"Blue Jeans",
     price:850,
+    discount:5,
     images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12330258/2020/11/24/5d47035d-b398-4982-a8b1-21dc0ef342811606203532261-Calvin-Klein-Jeans-Men-Jeans-2351606203530001-1.jpg",
     gender:"Male",
     recommandedBy:[
@@ -84,6 +87,7 @@ const product4= new Product({
     category:"Rain Jackets",
     productName:"Rain Jackets",
     price:600,
+    discount:5,
     images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/4/16/83ad562a-318b-4d77-bb61-1c638cc252811618562170580-1.jpg",
     gender:"Female",
     recommandedBy:[
@@ -113,6 +117,7 @@ const product5= new Product({
     category:"Shoes",
     productName:"white shoes",
     price:1000,
+    discount:5,
     images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10331501/2020/3/18/d4d07c60-88d9-43d9-aa78-9cc7712816321584508934272-US-Polo-Assn-Men-White-Colourblocked-Sneakers-84015845089331-1.jpg",
     gender:"Male And Female",
     recommandedBy:[
@@ -145,6 +150,7 @@ const product6= new Product({
     category:"Sunglasses",
     productName:"Rolex Sunglasses",
     price:1000,
+    discount:5,
     images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13129526/2021/7/9/b3c6f009-e067-4509-b99a-b3249c3026ee1625803783317-HRX-by-Hrithik-Roshan-Unisex-Polarised-Aviator-Sunglasses-MF-2.jpg",
     gender:"Male And Female",
     recommandedBy:[
@@ -178,6 +184,7 @@ const product7= new Product({
     category:"Sarees",
     productName:"Cream colour Saree",
     price:1500,
+    discount:5,
     images:"https://m.media-amazon.com/images/I/91d17vEsP9L._UY550_.jpg",
     gender:"Female",
     recommandedBy:[
@@ -206,6 +213,7 @@ const product8= new Product({
     category:"Handbag",
     productName:"Brown hanndbag",
     price:2000,
+    discount:5,
     images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13363892/2021/1/18/b1e93008-006b-4aad-9efd-1725447c3f3a1610953867988-Baggit-Women-Handbags-9711610953866016-1.jpg",
     gender:"Male AndFemale",
     recommandedBy:[
@@ -230,6 +238,7 @@ const product9= new Product({
     category:"Flat heels",
     productName:"Brown heels",
     price:800,
+    discount:5,
     images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/4371864/2018/6/5/996d3389-12f3-4432-8fc5-f35ca421516c1528202168275-Anouk-Women-Heels-5251528202168077-1.jpg",
     gender:"Female",
     recommandedBy:[
@@ -255,6 +264,7 @@ const product10= new Product({
     category:"Flip flops",
     productName:"Black Filp flops",
     price:1200,
+    discount:5,
     images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15388294/2021/9/22/30c01da8-1c5c-416c-9069-66f54932fc7b1632306458376-United-Colors-of-Benetton-Men-Flip-Flops-5991632306457935-1.jpg",
     gender:"Male",
     recommandedBy:[
@@ -358,6 +368,7 @@ const product14= new Product({
     category:"TrackPants",
     productName:"Black Trackpants",
     price:480,
+    discount:5,
     images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15293736/2021/8/28/0561e528-80c3-4e6e-b80d-75590bf628871630145672858RedTapeMensBlackJogger1.jpg",
     gender:"Male",
     recommandedBy:[
@@ -387,6 +398,7 @@ const product15= new Product({
     category:"Sandal",
     productName:"Brown Sandal",
     price:500,
+    discount:5,
     images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/6989420/2021/8/26/ca2fe419-7140-4fdc-a38c-176b29ef45a81629953308282-Woodland-Men-Camel-Brown--Olive-Green-Suede-Comfort-Sandals--1.jpg",
     gender:"Male",
     recommandedBy:[
@@ -416,6 +428,7 @@ const product16= new Product({
     category:"Wallet",
     productName:"Black wallet",
     price:600,
+    discount:5,
     images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2241309/2021/10/21/5aed2131-f6fa-40fb-b56a-97fdb9be95361634798998017-Tommy-Hilfiger-Men-Navy-Blue-Leather-Solid-Two-Fold-Wallet-1-1.jpg",
     gender:"Male",
     recommandedBy:[
@@ -511,6 +524,7 @@ const product20= new Product({
     category:"Plazo",
     productName:"Blue Plazo",
     price:900,
+    discount:5,
     images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12163934/2020/8/21/0857b52e-b239-4fe7-b689-97d0bc3ba33d1598002458759-Sangria-Women-Navy-Blue--White-Printed-Wide-Leg-Palazzos-771-1.jpg",
     gender:"Female",
     recommandedBy:[
@@ -535,6 +549,7 @@ const product21= new Product({
     category:"Dupatta Shawl",
     productName:"Pink Dupatta",
     price:400,
+    discount:5,
     images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/1/19/53b7facd-2b71-4082-8e52-dad0ebe77b1f1611050163500-1.jpg",
     gender:"Female",
     recommandedBy:[
@@ -568,6 +583,7 @@ const product22= new Product({
     category:"Jacket",
     productName:"Denim Jacket",
     price:800,
+    discount:5,
     images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12279352/2020/10/23/30c49d6b-f999-4a4e-8452-45e2192297601603433815389-Roadster-Women-Jackets-6561603433812959-1.jpg",
     gender:"Female",
     recommandedBy:[
@@ -589,6 +605,7 @@ const product23= new Product({
     category:"Leggings",
     productName:"White Leggings",
     price:400,
+    discount:5,
     images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14268676/2021/6/21/0c427481-8ab1-4af8-b17e-dd77cdda1bd41624276474873-HERENOW-Women-White-Solid-Ankle-Length-Leggings-851624276474-1.jpg",
     gender:"Female",
     recommandedBy:[
@@ -606,6 +623,7 @@ const product24= new Product({
     category:"Sports Shoes",
     productName:"White Sport Shoe",
     price:1300,
+    discount:5,
     images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/6/19/2838ca0b-d645-4e81-b8d2-c653dbb6f72a1624120057030-1.jpg",
     gender:"Male",
     recommandedBy:[
@@ -643,6 +661,7 @@ const product25= new Product({
     category:"Socks",
     productName:"Socks set",
     price:300,
+    discount:5,
     images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1616312/2018/10/8/c2d14220-e4ac-4808-89ce-23a0c9fc22051538997563353-HRX-by-Hrithik-Roshan-Men-Pack-of-3-Ankle-Length-Socks-6541538997563113-1.jpg",
     gender:"Male And Female",
     recommandedBy:[
