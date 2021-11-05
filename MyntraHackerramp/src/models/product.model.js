@@ -32,7 +32,8 @@ const productSchema = new mongoose.Schema(
     recommandedBy:[
       {
         influencerId:{type:Number,requied:true},
-        influencerName:{type:String,required:true}
+        influencerName:{type:String,required:true},
+        influencerImage:{type:String,required:true}
       }
     ],//suggestions:can add influencer schema to it for simplicity
     Likes:{type:Number,required:true},

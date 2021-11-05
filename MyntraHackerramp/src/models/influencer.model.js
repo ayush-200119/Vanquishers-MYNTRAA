@@ -12,6 +12,7 @@ const influencerSchema = new mongoose.Schema(
        likes:{type:Number,required:true},//represents avg likes on the prev 4 posts by the influencer
        comments:{type:Number,required:true},//represents avg comments on the prev 4 posts by the influencer
        recommendedProducts:[product.schema],
+       link:{type:String, required:false}
 
    }
 );
