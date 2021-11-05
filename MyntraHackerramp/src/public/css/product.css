@@ -1,9 +1,29 @@
-.image-container{
-    width: 48%;
-    height: 90%;
-    display: block;
+.influencer-intro{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.individual{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 3%;
+	width:85%
+}
+
+.image{
+	
+	height: 40%;
+	width: 48%;
+
 }
 
 .product-description{
-    display: block;
+    display: inline-block;
+	margin-bottom: 5%;
+}
+
+.product-details{
+	margin-top: 5%;
 }

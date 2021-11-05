@@ -1,0 +1,24 @@
+<%- include("navbar.ejs") -%>
+
+<link rel="stylesheet" href="/static/css/product.css">
+
+<div style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
+  <div class="individual">
+    <div class="influencer-intro">
+      <img src=" https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/4/16/83ad562a-318b-4d77-bb61-1c638cc252811618562170580-1.jpg" alt="product" class="image">
+    </div>
+    <div>
+      <div class="product-description">
+      <h1> <%=product.brandName %> </h1>
+      <p> <%=product.productName %> </p>
+     </div>
+      <hr>
+    <div class="product-details">
+      <p class="card-text"><span style="font-weight: bold;">Rs <%= product.price %></span><span style="font-weight: lighter !important; text-decoration: line-through;margin-left: 5px;margin-right: 5px; color:rgba(94, 93, 79, 0.445)">Rs <%= ((product.price * 100)/(100-product.discount)).toFixed(2) %></span></p>
+      <p><span style="font-weight: lighter !important; color:#f53edc">(<%= product.discount %>% Off)</span></p>
+    </div>
+    </div>
+  </div>
+</div>
+
+<%- include("footer.ejs") -%>

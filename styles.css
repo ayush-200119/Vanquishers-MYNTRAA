@@ -88,3 +88,52 @@ width: 100%;
 				background: dodgerblue;
 				color: white;
 }
+.influencer-intro{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.individual{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 3%;
+	width:85%
+}
+
+.image{
+	
+	height: 40%;
+	width: 48%;
+
+}
+
+.product-description{
+    display: inline-block;
+	margin-bottom: 5%;
+}
+
+.product-details{
+	margin-top: 5%;
+}
+
+.myButton {
+	background-color:#e04c4c;
+	border-radius:22px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:23px;
+	padding:16px 54px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#e0384f;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
