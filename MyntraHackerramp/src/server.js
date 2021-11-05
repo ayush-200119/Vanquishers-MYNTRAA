@@ -61,7 +61,7 @@ app.use("/user", userController);
 app.use("/top5influencers",top5Influencer);
 app.use("/mostlovedproducts",mostLovedProducts);
 
-app.use("/:productName/recommendedby",recommandedBy);
+app.use("/",recommandedBy);
 
 // Listen for events
 app.listen(3000, async () => {

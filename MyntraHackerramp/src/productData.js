@@ -13,15 +13,15 @@ const product1= new Product({
     recommandedBy:[
         {
             influencerId:1,
-            influencerName:"Influencer1"
+            influencerName:"Influencer 1"
         },
         {
             influencerId:3,
-            influencerName:"Influencer3"
+            influencerName:"Influencer 3"
         },
         {
             influencerId:5,
-            influencerName:"Influencer5"
+            influencerName:"Influencer 5"
         }
     ],
     Likes:100
@@ -40,15 +40,15 @@ const product2= new Product({
     recommandedBy:[
         {
             influencerId:5,
-            influencerName:"Influencer5"
+            influencerName:"Influencer 5"
         },
         {
             influencerId:7,
-            influencerName:"Influencer7"
+            influencerName:"Influencer 7"
         },
         {
             influencerId:1,
-            influencerName:"Influencer1"
+            influencerName:"Influencer 1"
         }
     ],
     Likes:80
@@ -67,15 +67,15 @@ const product3= new Product({
     recommandedBy:[
         {
             influencerId:2,
-            influencerName:"Influencer2"
+            influencerName:"Influencer 2"
         },
         {
             influencerId:6,
-            influencerName:"Influencer6"
+            influencerName:"Influencer 6"
         },
         {
             influencerId:3,
-            influencerName:"Influencer3"
+            influencerName:"Influencer 3"
         }
     ],
     Likes:180
@@ -93,19 +93,19 @@ const product4= new Product({
     recommandedBy:[
         {
             influencerId:5,
-            influencerName:"Influencer5"
+            influencerName:"Influencer 5"
         },
         {
             influencerId:9,
-            influencerName:"Influencer9"
+            influencerName:"Influencer 9"
         },
         {
             influencerId:3,
-            influencerName:"Influencer3"
+            influencerName:"Influencer 3"
         },
         {
             influencerId:1,
-            influencerName:"Influencer1"
+            influencerName:"Influencer 1"
         }
     ],
     Likes:280
@@ -123,23 +123,23 @@ const product5= new Product({
     recommandedBy:[
         {
             influencerId:2,
-            influencerName:"Influencer2"
+            influencerName:"Influencer 2"
         },
         {
             influencerId:8,
-            influencerName:"Influencer8"
+            influencerName:"Influencer 8"
         },
         {
             influencerId:4,
-            influencerName:"Influencer4"
+            influencerName:"Influencer 4"
         },
         {
             influencerId:1,
-            influencerName:"Influencer1"
+            influencerName:"Influencer 1"
         },
         {
             influencerId:10,
-            influencerName:"Influencer10"
+            influencerName:"Influencer 10"
         }
     ],
     Likes:150
@@ -156,23 +156,23 @@ const product6= new Product({
     recommandedBy:[
         {
             influencerId:2,
-            influencerName:"Influencer2"
+            influencerName:"Influencer 2"
         },
         {
             influencerId:8,
-            influencerName:"Influencer8"
+            influencerName:"Influencer 8"
         },
         {
             influencerId:4,
-            influencerName:"Influencer4"
+            influencerName:"Influencer 4"
         },
         {
             influencerId:1,
-            influencerName:"Influencer1"
+            influencerName:"Influencer 1"
         },
         {
             influencerId:10,
-            influencerName:"Influencer10"
+            influencerName:"Influencer 10"
         }
     ],
     Likes:159
@@ -190,19 +190,19 @@ const product7= new Product({
     recommandedBy:[
         {
             influencerId:2,
-            influencerName:"Influencer2"
+            influencerName:"Influencer 2"
         },
         {
             influencerId:8,
-            influencerName:"Influencer8"
+            influencerName:"Influencer 8"
         },
         {
             influencerId:4,
-            influencerName:"Influencer4"
+            influencerName:"Influencer 4"
         },
         {
             influencerId:10,
-            influencerName:"Influencer10"
+            influencerName:"Influencer 10"
         }
     ],
     Likes:179
@@ -219,15 +219,15 @@ const product8= new Product({
     recommandedBy:[
         {
             influencerId:6,
-            influencerName:"Influencer6"
+            influencerName:"Influencer 6"
         },
         {
             influencerId:9,
-            influencerName:"Influencer9"
+            influencerName:"Influencer 9"
         },
         {
             influencerId:10,
-            influencerName:"Influencer10"
+            influencerName:"Influencer 10"
         }
     ],
     Likes:79
@@ -244,15 +244,15 @@ const product9= new Product({
     recommandedBy:[
         {
             influencerId:1,
-            influencerName:"Influencer1"
+            influencerName:"Influencer 1"
         },
         {
             influencerId:3,
-            influencerName:"Influencer3"
+            influencerName:"Influencer 3"
         },
         {
             influencerId:10,
-            influencerName:"Influencer10"
+            influencerName:"Influencer 10"
         }
     ],
     Likes:70
@@ -270,11 +270,11 @@ const product10= new Product({
     recommandedBy:[
         {
             influencerId:5,
-            influencerName:"Influencer5"
+            influencerName:"Influencer 5"
         },
         {
             influencerId:4,
-            influencerName:"Influencer4"
+            influencerName:"Influencer 4"
         }
     ],
     Likes:78
@@ -292,19 +292,19 @@ const product11= new Product({
     recommandedBy:[
         {
             influencerId:5,
-            influencerName:"Influencer5"
+            influencerName:"Influencer 5"
         },
         {
             influencerId:1,
-            influencerName:"Influencer1"
+            influencerName:"Influencer 1"
         },
         {
             influencerId:10,
-            influencerName:"Influencer10"
+            influencerName:"Influencer 10"
         },
         {
             influencerId:2,
-            influencerName:"Influencer2"
+            influencerName:"Influencer 2"
         }
     ],
     Likes:69
@@ -322,19 +322,19 @@ const product12= new Product({
     recommandedBy:[
         {
             influencerId:9,
-            influencerName:"Influencer9"
+            influencerName:"Influencer 9"
         },
         {
             influencerId:1,
-            influencerName:"Influencer1"
+            influencerName:"Influencer 1"
         },
         {
             influencerId:10,
-            influencerName:"Influencer10"
+            influencerName:"Influencer 10"
         },
         {
             influencerId:2,
-            influencerName:"Influencer2"
+            influencerName:"Influencer 2"
         }
     ],
     Likes:70
@@ -352,11 +352,11 @@ const product13= new Product({
     recommandedBy:[
         {
             influencerId:7,
-            influencerName:"Influencer7"
+            influencerName:"Influencer 7"
         },
         {
             influencerId:1,
-            influencerName:"Influencer1"
+            influencerName:"Influencer 1"
         }
     ],
     Likes:169
@@ -374,19 +374,19 @@ const product14= new Product({
     recommandedBy:[
         {
             influencerId:9,
-            influencerName:"Influencer9"
+            influencerName:"Influencer 9"
         },
         {
             influencerId:8,
-            influencerName:"Influencer8"
+            influencerName:"Influencer 8"
         },
         {
             influencerId:7,
-            influencerName:"Influencer7"
+            influencerName:"Influencer 7"
         },
         {
             influencerId:4,
-            influencerName:"Influencer4"
+            influencerName:"Influencer 4"
         }
     ],
     Likes:980
@@ -404,22 +404,22 @@ const product15= new Product({
     recommandedBy:[
         {
             influencerId:1,
-            influencerName:"Influencer1"
+            influencerName:"Influencer 1"
         },
         {
             influencerId:8,
-            influencerName:"Influencer8"
+            influencerName:"Influencer 8"
         },
         {
             influencerId:6,
-            influencerName:"Influencer6"
+            influencerName:"Influencer 6"
         },
         {
             influencerId:4,
-            influencerName:"Influencer4"
+            influencerName:"Influencer 4"
         }
     ],
-    Likes:110
+    Likes:110 
 });
 productDataArray.push(product15);
 
@@ -434,11 +434,11 @@ const product16= new Product({
     recommandedBy:[
         {
             influencerId:8,
-            influencerName:"Influencer8"
+            influencerName:"Influencer 8"
         },
         {
             influencerId:4,
-            influencerName:"Influencer4"
+            influencerName:"Influencer 4"
         }
     ],
     Likes:80
@@ -456,7 +456,7 @@ const product17= new Product({
     recommandedBy:[
         {
             influencerId:4,
-            influencerName:"Influencer4"
+            influencerName:"Influencer 4"
         }
     ],
     Likes:790
@@ -474,15 +474,15 @@ const product18= new Product({
     recommandedBy:[
         {
             influencerId:4,
-            influencerName:"Influencer4"
+            influencerName:"Influencer 4"
         },
         {
             influencerId:10,
-            influencerName:"Influencer10"
+            influencerName:"Influencer 10"
         },
         {
             influencerId:3,
-            influencerName:"Influencer3"
+            influencerName:"Influencer 3"
         }
     ],
     Likes:40
@@ -500,19 +500,19 @@ const product19= new Product({
     recommandedBy:[
         {
             influencerId:2,
-            influencerName:"Influencer2"
+            influencerName:"Influencer 2"
         },
         {
             influencerId:10,
-            influencerName:"Influencer10"
+            influencerName:"Influencer 10"
         },
         {
             influencerId:9,
-            influencerName:"Influencer9"
+            influencerName:"Influencer 9"
         },
         {
             influencerId:6,
-            influencerName:"Influencer6"
+            influencerName:"Influencer 6"
         }
     ],
     Likes:140
@@ -530,15 +530,15 @@ const product20= new Product({
     recommandedBy:[
         {
             influencerId:2,
-            influencerName:"Influencer2"
+            influencerName:"Influencer 2"
         },
         {
             influencerId:10,
-            influencerName:"Influencer10"
+            influencerName:"Influencer 10"
         },
         {
             influencerId:9,
-            influencerName:"Influencer9"
+            influencerName:"Influencer 9"
         }
     ],
     Likes:140
@@ -555,23 +555,23 @@ const product21= new Product({
     recommandedBy:[
         {
             influencerId:2,
-            influencerName:"Influencer2"
+            influencerName:"Influencer 2"
         },
         {
             influencerId:10,
-            influencerName:"Influencer10"
+            influencerName:"Influencer 10"
         },
         {
             influencerId:5,
-            influencerName:"Influencer5"
+            influencerName:"Influencer 5"
         },
         {
             influencerId:1,
-            influencerName:"Influencer1"
+            influencerName:"Influencer 1"
         },
         {
             influencerId:7,
-            influencerName:"Influencer7"
+            influencerName:"Influencer 7"
         }
     ],
     Likes:240
@@ -589,11 +589,11 @@ const product22= new Product({
     recommandedBy:[
         {
             influencerId:3,
-            influencerName:"Influencer3"
+            influencerName:"Influencer 3"
         },
         {
             influencerId:9,
-            influencerName:"Influencer9"
+            influencerName:"Influencer 9"
         },
     ],
     Likes:67
@@ -611,7 +611,7 @@ const product23= new Product({
     recommandedBy:[
         {
             influencerId:9,
-            influencerName:"Influencer9"
+            influencerName:"Influencer 9"
         },
     ],
     Likes:28
@@ -629,27 +629,27 @@ const product24= new Product({
     recommandedBy:[
         {
             influencerId:1,
-            influencerName:"Influencer1"
+            influencerName:"Influencer 1"
         },
         {
             influencerId:9,
-            influencerName:"Influencer9"
+            influencerName:"Influencer 9"
         },
         {
             influencerId:2,
-            influencerName:"Influencer2"
+            influencerName:"Influencer 2"
         },
         {
             influencerId:6,
-            influencerName:"Influencer6"
+            influencerName:"Influencer 6"
         },
         {
             influencerId:7,
-            influencerName:"Influencer7"
+            influencerName:"Influencer 7"
         },
         {
             influencerId:8,
-            influencerName:"Influencer8"
+            influencerName:"Influencer 8"
         },
     ],
     Likes:300
@@ -667,25 +667,26 @@ const product25= new Product({
     recommandedBy:[
         {
             influencerId:9,
-            influencerName:"Influencer9"
+            influencerName:"Influencer 9"
         },
         {
             influencerId:1,
-            influencerName:"Influencer1"
+            influencerName:"Influencer 1"
         },
         {
             influencerId:8,
-            influencerName:"Influencer8"
+            influencerName:"Influencer 8"
         },
         {
             influencerId:6,
-            influencerName:"Influencer6"
+            influencerName:"Influencer 6"
         },
     ],
     Likes:28
 });
 
 productDataArray.push(product25);
+
 
     
 module.exports=productDataArray;

@@ -1,0 +1,21 @@
+.influencer{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 3%;
+	width:60%
+}
+
+.influencer-intro{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.influencer-image{
+	height: 80px;
+	width: 80px;
+	border-radius: 100%;
+
+	margin-right: 30px;
+}
