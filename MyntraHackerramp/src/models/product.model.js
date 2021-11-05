@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const productSchema = new mongoose.Schema(
   {
- 
+
     brandName: { type: String, required: true },
     category: { type: String, required: true },
     description: { type: String, required: false },
@@ -32,7 +32,8 @@ const productSchema = new mongoose.Schema(
     recommandedBy:[
       {
         influencerId:{type:Number,requied:true},
-        influencerName:{type:String,required:true}
+        influencerName:{type:String,required:true},
+        influencerImage:{type:String,required:true}
       }
     ],//suggestions:can add influencer schema to it for simplicity
     Likes:{type:Number,required:true},
@@ -48,4 +49,3 @@ const Product = mongoose.model("product", productSchema);
 
 module.exports.schema=productSchema;
 module.exports.model = Product;
-
