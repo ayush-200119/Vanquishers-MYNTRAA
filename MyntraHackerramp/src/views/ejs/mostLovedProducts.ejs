@@ -31,6 +31,24 @@
               <h5 class="card-title"><%= productDataArray[j].brandName %></h5>
               <p class="card-text"><%= productDataArray[j].productName %></p>
               <p class="card-text"><span style="font-weight: bold;">Rs <%= productDataArray[j].price %></span><span style="font-weight: lighter !important; text-decoration: line-through;margin-left: 5px;margin-right: 5px; color:rgba(94, 93, 79, 0.445)">Rs <%=((productDataArray[j].price * 100)/(100-productDataArray[j].discount)).toFixed(2) %></span><span style="font-weight: lighter !important; color:#f53edc">(<%= productDataArray[j].discount %>% Off)</span></p>
+              <div class="product-info">
+                <div class="like-container">
+                <div class='large-font text-center top-20'>
+                  <ion-icon name="heart">
+                    <div class='red-bg'></div>
+                  </ion-icon>
+                </div>
+
+                <span><%= productDataArray[j].Likes %></span>
+              </div>
+                
+                <div class="recommendedBy">
+                  <p class="rm-bottom">Recommended</p>
+                  <p><strong>By <%= productDataArray[j].recommendedBy.length %></strong> </p>
+                </div>
+
+              
+              </div>
               <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
             </div>
           </div>
@@ -40,5 +58,9 @@
     <% } %>
   </div>   
 </div> 
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 
 <%- include("footer.ejs") -%>

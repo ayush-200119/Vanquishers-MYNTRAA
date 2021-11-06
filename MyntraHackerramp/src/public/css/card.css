@@ -21,9 +21,17 @@
       }
       .card-text{
               opacity: 1;
-              transform: translateY(0px);
-      }
-  
+              margin-bottom: 0 !important;
+            }
+          
+            .card-title{
+              margin-bottom: 0 !important;
+            }
+          
+            p{
+              margin-bottom: 0;
+            }
+          
   
       .card:before{
           content: "";
@@ -49,3 +57,45 @@
     max-height: 5em;
     font-weight: 600;
   }
+
+  .like-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 10rem;
+    min-width: 4rem;
+  }
+  
+  .large-font{
+    font-size:32px;
+  }
+  .top-20{
+    position:relative;
+  }
+  
+  .product-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 3.5%;
+  }
+  
+  ion-icon{
+    fill:transparent;
+    stroke:black;
+    stroke-width:30;
+    transition:all 0.5s;
+  }
+  
+  .recommendedBy{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .rm-bottom{
+    margin-bottom: 0;
+  }
+  

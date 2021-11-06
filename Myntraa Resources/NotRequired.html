@@ -185,3 +185,27 @@
 <!-- <a href="/top5influencers/<%=influencerDataArray[j].name%>">Recommended Products!</a> -->
 
  <!-- onclick="location.href='/top5influencers/<%=influencerDataArray[j].name%>';" -->
+
+
+ <!-- 
+<div style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
+  <div class="individual">
+    <div class="influencer-intro">
+      <img src="<%=product.images %>" alt="product" class="image">
+    </div>
+    <div>
+      <div class="product-description">
+      <h1> <%=product.productName %> </h1>
+      <p> <%=product.brandName %> </p>
+     </div>
+      <hr>
+    <div class="product-details">
+      <p class="card-text"><span style="font-weight: bold;">Rs <%= product.price %></span><span style="font-weight: lighter !important; text-decoration: line-through;margin-left: 5px;margin-right: 5px; color:rgba(94, 93, 79, 0.445)">Rs <%= ((product.price * 100)/(100-product.discount)).toFixed(2) %></span><span style="font-weight: lighter !important; color:#f53edc">(<%= product.discount %>% Off)</span></p>
+    </div>
+    <div class="buttons">
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-outline-success">Success</button>
+    </div>
+    </div>
+  </div>
+</div> -->

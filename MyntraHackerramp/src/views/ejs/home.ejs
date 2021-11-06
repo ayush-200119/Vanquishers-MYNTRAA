@@ -124,6 +124,9 @@
               <a class="nav-link active" style="font-size: 1.15rem; font-weight: 600;" href="/mostlovedproducts">Most Loved</a>
             </li>
             <li class="dropdown-content2 dropdown-content nav-item">
+              <a class="nav-link active" style="font-size: 1.15rem; font-weight: 600;" href="/sellingOptionForinfluencer">Selling</a>
+            </li>
+            <li class="dropdown-content2 dropdown-content nav-item">
               <a class="nav-link active" style="font-size: 1.15rem; font-weight: 600;" href="https://www.myntra.com/studio/home">Studio</a>
             </li>
           </ul>
@@ -231,6 +234,27 @@
                 
                 <p><span style="font-weight: lighter !important; color:#f53edc">(<%= productDataArray[j].discount %>% Off)</span></p>
                 <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                
+                <div class="product-info">
+                  <div class="like-container">
+                  <div class='large-font text-center top-20'>
+                    <ion-icon name="heart">
+                      <div class='red-bg'></div>
+                    </ion-icon>
+                  </div>
+  
+                  <span><%= productDataArray[j].Likes %></span>
+                </div>
+                  
+                  <div class="recommendedBy">
+                    <p class="rm-bottom">Recommended</p>
+                    <p><strong>By <%= productDataArray[j].recommendedBy.length %></strong> </p>
+                  </div>
+  
+                
+                </div>
+              
+              
               </div>
             </div>
           </div>
@@ -376,6 +400,10 @@
       <%- include("footer.ejs") -%>
 
     </main>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
   </body>
 </html>
 <script src="/static/js/home.js"></script>

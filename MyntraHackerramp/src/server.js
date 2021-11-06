@@ -28,7 +28,7 @@ const userController = require("./controllers/user.controller");
 const top5Influencer=require("./controllers/Top5Influencers.controller");
 const mostLovedProducts=require("./controllers/mostLovedProducts.controller");
 const product=require("./controllers/individualProduct.controller.js");
-
+const selling=require("./controllers/selling.controller.js");
 // Create the express app using middleware
 const app = express();
 app.use(express.json());
@@ -57,7 +57,7 @@ app.use("/moda", modaControllers);
 app.use("/payment", paymentController);
 app.use("/signin", signinController);
 app.use("/user", userController);
-
+app.use("/sellingOptionForinfluencer",selling);
 app.use("/top5influencers",top5Influencer);
 app.use("/mostlovedproducts",mostLovedProducts);
 
