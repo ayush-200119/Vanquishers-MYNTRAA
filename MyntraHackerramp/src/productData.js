@@ -777,7 +777,7 @@ const product26= new Product({
     productName:"Silk Saree",
     price:1200,
     discount:5,
-    images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2020/9/16/25f5b6a7-ce25-4e66-8a61-3aa2037b6c741600207614629-1.jpg",
+    images:"https://m.media-amazon.com/images/I/91d17vEsP9L._UY550_.jpg",
     gender:"Female",
     recommandedBy:[
         {
@@ -811,5 +811,815 @@ const product26= new Product({
 
 productDataArray.push(product26);
 
+const product27= new Product({
+    brandName:"Macmerise",
+    category:"Phone case",
+    productName:"Black & White Naruto iPhone Case",
+    price:499,
+    discount:20,
+    images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2020/6/27/87f25919-8552-4395-9d02-f99bb9bc49ab1593210539653-1.jpg",
+    gender:"Male and Female",
+    recommandedBy:[
+        {
+            influencerId:1,
+            influencerName:"Influencer 1",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/9bc514e1-6d69-4253-9a4f-4968dc2b28fd1635771567432-IMG_3315.HEIC.jpg"
+        },
+        {
+            influencerId:3,
+            influencerName:"Influencer 3",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/29/0994cf1f-cf53-4123-9a75-e8bd3c8543421635513644542-image00001.jpeg"
+        },
+        {
+            influencerId:2,
+            influencerName:"Influencer 2",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/28/da922869-2630-480a-a211-0d12561a2b0f1635424397845-IMG_5264.jpg"
+        },
+        {
+            influencerId:5,
+            influencerName:"Influencer 5",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/25/958c0371-b214-46a9-8f7a-e6e0f5230b9c1635106477686-croppedImage-1635106476551.jpg"
+        }
+    ],
+    Likes:120
+});
+
+productDataArray.push(product27);
+
+const product28= new Product({
+    brandName:"Nike",
+    category:"Sports Shoes",
+    productName:"Black & White Sport Shoes",
+    price:700,
+    discount:10,
+    images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15386880/2021/10/5/bdfbf24d-a7fc-4a96-aa6c-ee46b3d30b4f1633421157414-Nike-Air-Max-Oketo-Mens-Shoes-9601633421156799-1.jpg",
+    gender:"Male",
+    recommandedBy:[
+        {
+            influencerId:5,
+            influencerName:"Influencer 5",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/25/958c0371-b214-46a9-8f7a-e6e0f5230b9c1635106477686-croppedImage-1635106476551.jpg"
+        },
+        {
+            influencerId:7,
+            influencerName:"Influencer 7",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/30/c4368240-c5e4-4e17-9107-8bcd35d7a5f61635534079972-croppedImage-1635534078086.jpg"
+        },
+        {
+            influencerId:8,
+            influencerName:"Influencer 8",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/30/c32afb54-0f4d-4c42-881e-3e0c95d011591635578184021-Sports.JPG"
+        },
+        {
+            influencerId:1,
+            influencerName:"Influencer 1",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/9bc514e1-6d69-4253-9a4f-4968dc2b28fd1635771567432-IMG_3315.HEIC.jpg"
+        }
+    ],
+    Likes:135
+});
+
+productDataArray.push(product28);
+
+const product29= new Product({
+    brandName:"Fire-Boltt",
+    category:"Smartwatch",
+    productName:"Full Touch Smartwatch",
+    price:2000,
+    discount:20,
+    images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15759786/2021/10/18/fc0fe19f-6bdf-4a13-9b75-39a5ad822d661634558545853-Fire-Boltt-Black-Ninja-Touch-to-Wake-SpO2-Smartwatch-07BSWAA-1.jpg",
+    gender:"Male and female",
+    recommandedBy:[
+        {
+            influencerId:2,
+            influencerName:"Influencer 2",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/28/da922869-2630-480a-a211-0d12561a2b0f1635424397845-IMG_5264.jpg"
+        },
+        {
+            influencerId:5,
+            influencerName:"Influencer 5",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/25/958c0371-b214-46a9-8f7a-e6e0f5230b9c1635106477686-croppedImage-1635106476551.jpg"
+        },
+        {
+            influencerId:9,
+            influencerName:"Influencer 9",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/e92f21d0-2d1f-467e-bb59-cf18d8e3a8101635775844835-ED9326E8-68A9-4181-A742-35161A70CA45.jpg"
+        },
+        {
+            influencerId:6,
+            influencerName:"Influencer 6",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/25/f0f87491-bfd8-4110-b71a-c2717270fa161635156156991-153FF4D7-BBE3-4BE9-9298-70B99A2C6E57.jpeg"
+        },
+        {
+            influencerId:3,
+            influencerName:"Influencer 3",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/29/0994cf1f-cf53-4123-9a75-e8bd3c8543421635513644542-image00001.jpeg"
+        },
+        {
+            influencerId:1,
+            influencerName:"Influencer 1",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/9bc514e1-6d69-4253-9a4f-4968dc2b28fd1635771567432-IMG_3315.HEIC.jpg"
+        }
+    ],
+    Likes:300
+});
+productDataArray.push(product29);
+
+const product30= new Product({
+    brandName:"Wrogn",
+    category:"Watch",
+    productName:"Silver Toned Analogue Watch",
+    price:800,
+    discount:15,
+    images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13036796/2021/1/6/bb6d18c9-39c1-4632-bc4a-f452606965ef1609906124788-WROGN-Men-Silver-Toned-Analogue-Watch-WRG00048A-802160990612-1.jpg",
+    gender:"Male",
+    recommandedBy:[
+        {
+            influencerId:5,
+            influencerName:"Influencer 5",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/25/958c0371-b214-46a9-8f7a-e6e0f5230b9c1635106477686-croppedImage-1635106476551.jpg"
+        },
+        {
+            influencerId:9,
+            influencerName:"Influencer 9",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/e92f21d0-2d1f-467e-bb59-cf18d8e3a8101635775844835-ED9326E8-68A9-4181-A742-35161A70CA45.jpg"
+        },
+        {
+            influencerId:3,
+            influencerName:"Influencer 3",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/29/0994cf1f-cf53-4123-9a75-e8bd3c8543421635513644542-image00001.jpeg"
+        },
+        {
+            influencerId:1,
+            influencerName:"Influencer 1",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/9bc514e1-6d69-4253-9a4f-4968dc2b28fd1635771567432-IMG_3315.HEIC.jpg"
+        }
+    ],
+    Likes:280
+});
+productDataArray.push(product30);
+
+const product31= new Product({
+    brandName:"Vanesa",
+    category:"Perfumes",
+    productName:"Envy Women Vanesa Eau De Parfum",
+    price:500,
+    discount:5,
+    images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/4374566/2021/6/9/d309e17f-b586-48bd-b685-db26c5d399591623234200083-Envy-Women-Vanesa-Eau-De-Parfum-30-ml-3751623234200028-1.jpg",
+    gender:"Female",
+    recommandedBy:[
+        {
+            influencerId:2,
+            influencerName:"Influencer 2",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/28/da922869-2630-480a-a211-0d12561a2b0f1635424397845-IMG_5264.jpg"
+        },
+        {
+            influencerId:4,
+            influencerName:"Influencer 4",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/29/9af41cf7-78bd-4cc3-80fe-109399bfb2da1635523104905-IMG_5828.jpg"
+        },
+        {
+            influencerId:10,
+            influencerName:"Influencer 10",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/fc06c6ab-479a-4bd2-9c88-76abf8ec49501635756045966-croppedImage-1635756045730.jpg"
+        }
+    ],
+    Likes:70
+});
+productDataArray.push(product31);
+
+const product32= new Product({
+    brandName:"teakwood Leathers",
+    category:"Leather Belt",
+    productName:"Black-Brown Reversible Leather Belt",
+    price:800,
+    discount:10,
+    images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1158696/2016/7/29/11469777538547-Teakwood-Leathers-Men-Black--Brown-Reversible-Leather-Belt-2951469777532248-1.jpg",
+    gender:"Male",
+    recommandedBy:[
+        {
+            influencerId:8,
+            influencerName:"Influencer 8",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/30/c32afb54-0f4d-4c42-881e-3e0c95d011591635578184021-Sports.JPG"
+        },
+        {
+            influencerId:5,
+            influencerName:"Influencer 5",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/25/958c0371-b214-46a9-8f7a-e6e0f5230b9c1635106477686-croppedImage-1635106476551.jpg"
+        }
+    ],
+    Likes:90
+});
+productDataArray.push(product32);
+
+const product33= new Product({
+    brandName:"Puma",
+    category:"Caps",
+    productName:"Black Cap",
+    price:400,
+    discount:5,
+    images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2020/12/30/a2adfa2a-3246-48c9-878d-21b57b083a141609320341561-1.jpg",
+    gender:"Male and Female",
+    recommandedBy:[
+        {
+            influencerId:2,
+            influencerName:"Influencer 2",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/28/da922869-2630-480a-a211-0d12561a2b0f1635424397845-IMG_5264.jpg"
+        },
+        {
+            influencerId:8,
+            influencerName:"Influencer 8",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/30/c32afb54-0f4d-4c42-881e-3e0c95d011591635578184021-Sports.JPG"
+        },
+        {
+            influencerId:4,
+            influencerName:"Influencer 4",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/29/9af41cf7-78bd-4cc3-80fe-109399bfb2da1635523104905-IMG_5828.jpg"
+        },
+        {
+            influencerId:1,
+            influencerName:"Influencer 1",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/9bc514e1-6d69-4253-9a4f-4968dc2b28fd1635771567432-IMG_3315.HEIC.jpg"
+        },
+        {
+            influencerId:10,
+            influencerName:"Influencer 10",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/fc06c6ab-479a-4bd2-9c88-76abf8ec49501635756045966-croppedImage-1635756045730.jpg"
+        }
+    ],
+    Likes:179
+});
+productDataArray.push(product33);
+
+const product34= new Product({
+    brandName:"Wildcraft",
+    category:"Backpack",
+    productName:"Black-Lunar-Laptop-Backpack",
+    price:1000,
+    discount:10,
+    images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12361350/2020/9/12/5eecd2dc-d684-4a71-8640-ff6db02fdad01599889647840-Wildcraft-Unisex-Black-Lunar-Laptop-Backpack-851599889646488-1.jpg",
+    gender:"Male And Female",
+    recommandedBy:[
+        {
+            influencerId:6,
+            influencerName:"Influencer 6",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/25/f0f87491-bfd8-4110-b71a-c2717270fa161635156156991-153FF4D7-BBE3-4BE9-9298-70B99A2C6E57.jpeg"
+        },
+        {
+            influencerId:9,
+            influencerName:"Influencer 9",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/e92f21d0-2d1f-467e-bb59-cf18d8e3a8101635775844835-ED9326E8-68A9-4181-A742-35161A70CA45.jpg"
+        },
+        {
+            influencerId:10,
+            influencerName:"Influencer 10",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/fc06c6ab-479a-4bd2-9c88-76abf8ec49501635756045966-croppedImage-1635756045730.jpg"
+        }
+    ],
+    Likes:100
+});
+productDataArray.push(product34);
+
+const product35= new Product({
+    brandName:"Safari",
+    category:"Trolley Bags",
+    productName:"Printed-Hardsided-Super-Size-Trolley-Bag",
+    price:1200,
+    discount:15,
+    images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13171870/2021/1/19/67b6d8cd-6a72-4723-9e60-b633c66359c91611038593293-Safari-Unisex-Printed-Hardsided-Super-Size-Trolley-Bag-26816-1.jpg",
+    gender:"Male and Female",
+    recommandedBy:[
+        {
+            influencerId:1,
+            influencerName:"Influencer 1",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/9bc514e1-6d69-4253-9a4f-4968dc2b28fd1635771567432-IMG_3315.HEIC.jpg"
+        },
+        {
+            influencerId:3,
+            influencerName:"Influencer 3",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/29/0994cf1f-cf53-4123-9a75-e8bd3c8543421635513644542-image00001.jpeg"
+        },
+        {
+            influencerId:5,
+            influencerName:"Influencer 5",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/25/958c0371-b214-46a9-8f7a-e6e0f5230b9c1635106477686-croppedImage-1635106476551.jpg"
+        },
+        {
+            influencerId:4,
+            influencerName:"Influencer 4",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/29/9af41cf7-78bd-4cc3-80fe-109399bfb2da1635523104905-IMG_5828.jpg"
+        },
+        {
+            influencerId:10,
+            influencerName:"Influencer 10",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/fc06c6ab-479a-4bd2-9c88-76abf8ec49501635756045966-croppedImage-1635756045730.jpg"
+        }
+    ],
+    Likes:300
+});
+productDataArray.push(product35);
+
+const product36= new Product({
+    brandName:"Trase",
+    category:"Boots",
+    productName:"Brown Heeled Boots",
+    price:800,
+    discount:20,
+    images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2020/12/17/95e1e28a-c133-4661-8b10-fb3556ddfd611608210624529-1.jpg",
+    gender:"Female",
+    recommandedBy:[
+        {
+            influencerId:1,
+            influencerName:"Influencer 1",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/9bc514e1-6d69-4253-9a4f-4968dc2b28fd1635771567432-IMG_3315.HEIC.jpg"
+        },
+        {
+            influencerId:10,
+            influencerName:"Influencer 10",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/fc06c6ab-479a-4bd2-9c88-76abf8ec49501635756045966-croppedImage-1635756045730.jpg"
+        },
+        {
+            influencerId:4,
+            influencerName:"Influencer 4",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/29/9af41cf7-78bd-4cc3-80fe-109399bfb2da1635523104905-IMG_5828.jpg"
+        }
+    ],
+    Likes:86
+});
+productDataArray.push(product36);
+
+const product37= new Product({
+    brandName:"Puma",
+    category:"Sport Shoes",
+    productName:"Pink Women Sport Shoes",
+    price:1100,
+    images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12528248/2020/10/7/4b6d6d65-8e25-4737-b8d5-db72dff2466a1602054692367-Puma-Women-Sports-Shoes-9681602054690773-1.jpg",
+    discount:5,
+    gender:"Female",
+    recommandedBy:[
+        {
+            influencerId:1,
+            influencerName:"Influencer 1",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/9bc514e1-6d69-4253-9a4f-4968dc2b28fd1635771567432-IMG_3315.HEIC.jpg"
+        },
+        {
+            influencerId:10,
+            influencerName:"Influencer 10",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/fc06c6ab-479a-4bd2-9c88-76abf8ec49501635756045966-croppedImage-1635756045730.jpg"
+        },
+        {
+            influencerId:2,
+            influencerName:"Influencer 2",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/28/da922869-2630-480a-a211-0d12561a2b0f1635424397845-IMG_5264.jpg"
+        }
+    ],
+    Likes:69
+});
+productDataArray.push(product37);
+
+const product38= new Product({
+    brandName:"Lakme",
+    category:"Face Wash",
+    productName:"Women Face Wash and Cleanser",
+    price:200,
+    images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/4384875/2018/4/18/11524043885903-Lakme-Women-Face-Wash-and-Cleanser-9941524043885838-1.jpg",
+    discount:10,
+    gender:"Female",
+    recommandedBy:[
+        {
+            influencerId:1,
+            influencerName:"Influencer 1",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/9bc514e1-6d69-4253-9a4f-4968dc2b28fd1635771567432-IMG_3315.HEIC.jpg"
+        },
+        {
+            influencerId:10,
+            influencerName:"Influencer 10",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/fc06c6ab-479a-4bd2-9c88-76abf8ec49501635756045966-croppedImage-1635756045730.jpg"
+        },
+        {
+            influencerId:2,
+            influencerName:"Influencer 2",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/28/da922869-2630-480a-a211-0d12561a2b0f1635424397845-IMG_5264.jpg"
+        }
+    ],
+    Likes:70
+});
+productDataArray.push(product38);
+
+const product39= new Product({
+    brandName:"Lotus",
+    category:"Moisturizer",
+    productName:"WhiteGlow Skin Gel Creme",
+    price:200,
+    images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1920200/2020/10/10/5f2c3eed-16a5-4aa3-bc12-5d71658a16271602272543274LotusHerbalsSustainableWomenWhiteGlowSkinTighteningBrighteni1.jpg",
+    discount:15,
+    gender:"Female",
+    recommandedBy:[
+        {
+            influencerId:7,
+            influencerName:"Influencer 7",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/30/c4368240-c5e4-4e17-9107-8bcd35d7a5f61635534079972-croppedImage-1635534078086.jpg"
+        },
+        {
+            influencerId:1,
+            influencerName:"Influencer 1",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/9bc514e1-6d69-4253-9a4f-4968dc2b28fd1635771567432-IMG_3315.HEIC.jpg"
+        }
+    ],
+    Likes:169
+});
+productDataArray.push(product39);
+
+const product40= new Product({
+    brandName:"MCaffeine",
+    category:"Body Scrub",
+    productName:"Coffee Body Scrub",
+    price:480,
+    discount:5,
+    images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10901940/2021/10/19/1454335a-19f2-4dd7-bff8-16eeb92c6d701634639734427-MCaffeine-Naked--Raw-Tan-Removal-Coffee-Body-Scrub-100-g-125-15.jpg",
+    gender:"Male and Female",
+    recommandedBy:[
+        {
+            influencerId:9,
+            influencerName:"Influencer 9",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/e92f21d0-2d1f-467e-bb59-cf18d8e3a8101635775844835-ED9326E8-68A9-4181-A742-35161A70CA45.jpg"
+        },
+        {
+            influencerId:8,
+            influencerName:"Influencer 8",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/30/c32afb54-0f4d-4c42-881e-3e0c95d011591635578184021-Sports.JPG"
+        },
+        {
+            influencerId:7,
+            influencerName:"Influencer 7",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/30/c4368240-c5e4-4e17-9107-8bcd35d7a5f61635534079972-croppedImage-1635534078086.jpg"
+        },
+        {
+            influencerId:1,
+            influencerName:"Influencer 1",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/9bc514e1-6d69-4253-9a4f-4968dc2b28fd1635771567432-IMG_3315.HEIC.jpg"
+        },
+        {
+            influencerId:4,
+            influencerName:"Influencer 4",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/29/9af41cf7-78bd-4cc3-80fe-109399bfb2da1635523104905-IMG_5828.jpg"
+        }
+    ],
+    Likes:980
+});
+productDataArray.push(product40);
+
+const product41= new Product({
+    brandName:"Lakme",
+    category:"Sunscreen Lotion",
+    productName:"Women UV Sunscreen Lotion",
+    price:200,
+    discount:15,
+    images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/154046/2019/9/25/86d1c40c-c11f-4d1f-a512-8bddbaeea45e1569403304023-Lakme-Women-Sun-Expert-Fairness--UV-Sunscreen-Lotion-3151569-1.jpg",
+    gender:"Female",
+    recommandedBy:[
+        {
+            influencerId:1,
+            influencerName:"Influencer 1",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/9bc514e1-6d69-4253-9a4f-4968dc2b28fd1635771567432-IMG_3315.HEIC.jpg"
+        },
+        {
+            influencerId:8,
+            influencerName:"Influencer 8",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/30/c32afb54-0f4d-4c42-881e-3e0c95d011591635578184021-Sports.JPG"
+        },
+        {
+            influencerId:6,
+            influencerName:"Influencer 6",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/25/f0f87491-bfd8-4110-b71a-c2717270fa161635156156991-153FF4D7-BBE3-4BE9-9298-70B99A2C6E57.jpeg"
+        },
+        {
+            influencerId:4,
+            influencerName:"Influencer 4",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/29/9af41cf7-78bd-4cc3-80fe-109399bfb2da1635523104905-IMG_5828.jpg"
+        }
+    ],
+    Likes:110
+});
+productDataArray.push(product41);
+
+const product42= new Product({
+    brandName:"Vaseline",
+    category:"Hand Cream",
+    productName:"Anti bacterial Hand Cream",
+    price:150,
+    discount:5,
+    images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12688516/2021/3/9/b65e270a-7a1a-4f0b-88b9-4a6ea1365f941615232696237-Vaseline-Unisex-Hand-and-Feet-Cream-7011615232696047-1.jpg",
+    gender:"Male and female",
+    recommandedBy:[
+        {
+            influencerId:8,
+            influencerName:"Influencer 8",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/30/c32afb54-0f4d-4c42-881e-3e0c95d011591635578184021-Sports.JPG"
+        },
+        {
+            influencerId:4,
+            influencerName:"Influencer 4",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/29/9af41cf7-78bd-4cc3-80fe-109399bfb2da1635523104905-IMG_5828.jpg"
+        }
+    ],
+    Likes:80
+});
+productDataArray.push(product42);
+
+const product43= new Product({
+    brandName:"Maybelline",
+    category:"Lipstick",
+    productName:"Creamy Matte Lipstick",
+    price:180,
+    images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1963299/2017/6/23/11498203520561-Maybelline-Nude-Nuance-Creamy-Matte-Lipstick-685-42-g-2571498203520453-1.jpg",
+    discount:5,
+    gender:"Female",
+    recommandedBy:[
+        {
+            influencerId:4,
+            influencerName:"Influencer 4",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/29/9af41cf7-78bd-4cc3-80fe-109399bfb2da1635523104905-IMG_5828.jpg"
+        },
+        {
+            influencerId:2,
+            influencerName:"Influencer 2",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/28/da922869-2630-480a-a211-0d12561a2b0f1635424397845-IMG_5264.jpg"
+        },
+        {
+            influencerId:10,
+            influencerName:"Influencer 10",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/fc06c6ab-479a-4bd2-9c88-76abf8ec49501635756045966-croppedImage-1635756045730.jpg"
+        },
+        {
+            influencerId:3,
+            influencerName:"Influencer 3",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/29/0994cf1f-cf53-4123-9a75-e8bd3c8543421635513644542-image00001.jpeg"
+        }
+    ],
+    Likes:790
+});
+productDataArray.push(product43);
+
+const product44= new Product({
+    brandName:"Rubans",
+    category:"Earrings",
+    productName:"Blue Oxidised Classic Studs",
+    price:250,
+    images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11476036/2021/10/1/791eedba-9934-47b0-949f-f22b220b2bf61633078994753-Rubans-Silver-Toned--Blue-Oxidised-Classic-Studs-96516330789-1.jpg",
+    discount:15,
+    gender:"Female",
+    recommandedBy:[
+        {
+            influencerId:4,
+            influencerName:"Influencer 4",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/29/9af41cf7-78bd-4cc3-80fe-109399bfb2da1635523104905-IMG_5828.jpg"
+        },
+        {
+            influencerId:10,
+            influencerName:"Influencer 10",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/fc06c6ab-479a-4bd2-9c88-76abf8ec49501635756045966-croppedImage-1635756045730.jpg"
+        },
+        {
+            influencerId:3,
+            influencerName:"Influencer 3",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/29/0994cf1f-cf53-4123-9a75-e8bd3c8543421635513644542-image00001.jpeg"
+        }
+    ],
+    Likes:98
+});
+productDataArray.push(product44);
+
+const product45= new Product({
+    brandName:"YouBella",
+    category:"Chains",
+    productName:"Set of 2 Gold-Plated Chains",
+    price:399,
+    images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/5/15/74ef45d3-2acd-4a8b-a3a2-dc099955d0551621056130389-1.jpg",
+    discount:20,
+    gender:"Female",
+    recommandedBy:[
+        {
+            influencerId:2,
+            influencerName:"Influencer 2",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/28/da922869-2630-480a-a211-0d12561a2b0f1635424397845-IMG_5264.jpg"
+        },
+        {
+            influencerId:10,
+            influencerName:"Influencer 10",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/fc06c6ab-479a-4bd2-9c88-76abf8ec49501635756045966-croppedImage-1635756045730.jpg"
+        },
+        {
+            influencerId:6,
+            influencerName:"Influencer 6",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/25/f0f87491-bfd8-4110-b71a-c2717270fa161635156156991-153FF4D7-BBE3-4BE9-9298-70B99A2C6E57.jpeg"
+        }
+    ],
+    Likes:140
+});
+productDataArray.push(product45);
+
+const product46= new Product({
+    brandName:"KLOTTHE",
+    category:"Bedsheets",
+    productName:"Purple Cotton Bedsheets",
+    price:900,
+    discount:5,
+    images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13183424/2020/12/9/11f03a12-9c88-4a6f-9f2b-2efe8d986ccc1607520964497-KLOTTHE-Purple-Geometric-210-TC-Cotton-1-King-Bedsheet-with--1.jpg",
+    gender:"Male and Female",
+    recommandedBy:[
+        {
+            influencerId:2,
+            influencerName:"Influencer 2",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/28/da922869-2630-480a-a211-0d12561a2b0f1635424397845-IMG_5264.jpg"
+        },
+        {
+            influencerId:10,
+            influencerName:"Influencer 10",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/fc06c6ab-479a-4bd2-9c88-76abf8ec49501635756045966-croppedImage-1635756045730.jpg"
+        },
+        {
+            influencerId:9,
+            influencerName:"Influencer 9",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/e92f21d0-2d1f-467e-bb59-cf18d8e3a8101635775844835-ED9326E8-68A9-4181-A742-35161A70CA45.jpg"
+        },
+        {
+            influencerId:5,
+            influencerName:"Influencer 5",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/25/958c0371-b214-46a9-8f7a-e6e0f5230b9c1635106477686-croppedImage-1635106476551.jpg"
+        }
+    ],
+    Likes:140
+});
+productDataArray.push(product46);
+
+const product47= new Product({
+    brandName:"GoodHomes",
+    category:"Cups",
+    productName:"set of 4 cups",
+    price:600,
+    discount:5,
+    images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12360750/2020/9/1/2ea95b06-0ea8-4c23-b881-f9ee4d914ad41598948398511HappinessisSetof41.jpg",
+    gender:"Male and Female",
+    recommandedBy:[
+        {
+            influencerId:2,
+            influencerName:"Influencer 2",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/28/da922869-2630-480a-a211-0d12561a2b0f1635424397845-IMG_5264.jpg"
+        },
+        {
+            influencerId:7,
+            influencerName:"Influencer 7",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/30/c4368240-c5e4-4e17-9107-8bcd35d7a5f61635534079972-croppedImage-1635534078086.jpg"
+        }
+    ],
+    Likes:240
+});
+productDataArray.push(product47);
+
+const product48= new Product({
+    brandName:"Wonderland",
+    category:"Showpieces",
+    productName:"Ganesh Idol Showpiece",
+    price:1500,
+    discount:18,
+    images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15359134/2021/9/4/6d42e1dd-8a84-4e2c-acd5-a4f96e90b40a1630760900475Showpieces1.jpg",
+    gender:"Male and Female",
+    recommandedBy:[
+        {
+            influencerId:3,
+            influencerName:"Influencer 3",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/29/0994cf1f-cf53-4123-9a75-e8bd3c8543421635513644542-image00001.jpeg"
+        },
+        {
+            influencerId:10,
+            influencerName:"Influencer 10",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/fc06c6ab-479a-4bd2-9c88-76abf8ec49501635756045966-croppedImage-1635756045730.jpg"
+        },
+        {
+            influencerId:5,
+            influencerName:"Influencer 5",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/25/958c0371-b214-46a9-8f7a-e6e0f5230b9c1635106477686-croppedImage-1635106476551.jpg"
+        },
+        {
+            influencerId:1,
+            influencerName:"Influencer 1",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/9bc514e1-6d69-4253-9a4f-4968dc2b28fd1635771567432-IMG_3315.HEIC.jpg"
+        },
+        {
+            influencerId:9,
+            influencerName:"Influencer 9",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/e92f21d0-2d1f-467e-bb59-cf18d8e3a8101635775844835-ED9326E8-68A9-4181-A742-35161A70CA45.jpg"
+        },
+    ],
+    Likes:270
+});
+productDataArray.push(product48);
+
+const product49= new Product({
+    brandName:"Home Centre",
+    category:"Doormat",
+    productName:"Blue Printed Doormat",
+    price:400,
+    discount:15,
+    images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/5/29/0ce6ae97-e0bf-4159-9c38-a3ada891e1cc1622264283350-1.jpg",
+    gender:"Male and Female",
+    recommandedBy:[
+        {
+            influencerId:9,
+            influencerName:"Influencer 9",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/e92f21d0-2d1f-467e-bb59-cf18d8e3a8101635775844835-ED9326E8-68A9-4181-A742-35161A70CA45.jpg"
+        },
+    ],
+    Likes:28
+});
+productDataArray.push(product49);
+
+const product50= new Product({
+    brandName:"Spaces",
+    category:"Bath Towels",
+    productName:"Set of 10 Gray & Pink Towels",
+    price:1000,
+    discount:12,
+    images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/2/9/06926ffd-448f-496e-80e6-fddba37e8cc81612885306577-1.jpg",
+    gender:"Male and Female",
+    recommandedBy:[
+        {
+            influencerId:1,
+            influencerName:"Influencer 1",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/9bc514e1-6d69-4253-9a4f-4968dc2b28fd1635771567432-IMG_3315.HEIC.jpg"
+        },
+        {
+            influencerId:9,
+            influencerName:"Influencer 9",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/e92f21d0-2d1f-467e-bb59-cf18d8e3a8101635775844835-ED9326E8-68A9-4181-A742-35161A70CA45.jpg"
+        },
+        {
+            influencerId:2,
+            influencerName:"Influencer 2",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/28/da922869-2630-480a-a211-0d12561a2b0f1635424397845-IMG_5264.jpg"
+        }
+    ],
+    Likes:67
+});
+productDataArray.push(product50);
+
+const product51= new Product({
+    brandName:"Bianca",
+    category:"Pillows",
+    productName:"Set of 2 White Pillows",
+    price:1318,
+    discount:25,
+    images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/4/16/bff7e441-f364-4c70-bbb4-a1f7dba0042e1618558442121-1.jpg",
+    gender:"Male and Female",
+    recommandedBy:[
+        {
+            influencerId:1,
+            influencerName:"Influencer 1",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/9bc514e1-6d69-4253-9a4f-4968dc2b28fd1635771567432-IMG_3315.HEIC.jpg"
+        },
+        {
+            influencerId:10,
+            influencerName:"Influencer 10",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/fc06c6ab-479a-4bd2-9c88-76abf8ec49501635756045966-croppedImage-1635756045730.jpg"
+        },
+        {
+            influencerId:4,
+            influencerName:"Influencer 4",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/29/9af41cf7-78bd-4cc3-80fe-109399bfb2da1635523104905-IMG_5828.jpg"
+        }
+    ],
+    Likes:86
+});
+productDataArray.push(product51);
+
+const product52= new Product({
+    brandName:"Presto",
+    category:"Carpets",
+    productName:"Printed Anti-Skid Carpet",
+    price:3118,
+    images:"https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2019/11/6/5a3e4264-009b-4429-a3ff-5258712cbc181573032937219-1.jpg",
+    discount:25,
+    gender:"Male and Female",
+    recommandedBy:[
+        {
+            influencerId:1,
+            influencerName:"Influencer 1",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/9bc514e1-6d69-4253-9a4f-4968dc2b28fd1635771567432-IMG_3315.HEIC.jpg"
+        },
+        {
+            influencerId:10,
+            influencerName:"Influencer 10",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/11/1/fc06c6ab-479a-4bd2-9c88-76abf8ec49501635756045966-croppedImage-1635756045730.jpg"
+        },
+        {
+            influencerId:2,
+            influencerName:"Influencer 2",
+            influencerImage:"https://assets.myntassets.com/f_auto,q_100,dpr_1.8,w_411,c_limit,fl_progressive/assets/images/2021/10/28/da922869-2630-480a-a211-0d12561a2b0f1635424397845-IMG_5264.jpg"
+        }
+    ],
+    Likes:256
+});
+productDataArray.push(product52);
 
 module.exports=productDataArray;
