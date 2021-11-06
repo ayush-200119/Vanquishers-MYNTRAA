@@ -19,7 +19,7 @@ router.get("/:productName",async(req,res)=>{
 
           //finding in Influencer DB
 
-          // const Links=requiredProduct.recommandedBy.map((inf)=>{
+          // const Links=requiredProduct.recommendedBy.map((inf)=>{
           //   Influencer.findOne({name:inf.influencerName},function(err,foundInf){
           //         return foundInf.link;
           //   });

@@ -22,7 +22,7 @@
               <h5 class="card-title"><%= recommendedProducts[j].brandName %></h5>
               <p class="card-text"><%= recommendedProducts[j].productName %></p>
               <p class="card-text"><span style="font-weight: bold;">Rs <%= recommendedProducts[j].price %></span><span style="font-weight: lighter !important; text-decoration: line-through;margin-left: 5px;margin-right: 5px; color:rgba(94, 93, 79, 0.445)">Rs <%=((recommendedProducts[j].price * 100)/(100-recommendedProducts[j].discount)).toFixed(2) %></span><span style="font-weight: lighter !important; color:#f53edc">(<%= recommendedProducts[j].discount %>% Off)</span></p>
-              <p style="font-weight:lighter;">Recommended by <b><%=recommendedProducts[j].recommandedBy.length %> influencers</b></p>
+              <p style="font-weight:lighter;">Recommended by <b><%=recommendedProducts[j].recommendedBy.length %> influencers</b></p>
               <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
             </div>
           </div>

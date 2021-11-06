@@ -53,7 +53,7 @@ router.get("/", async (req, res) => {
     // return res.render("ejs/influencer",{recommendedProducts:foundInfluencer.recommendedProducts});
 
     Influencer.findOne({name:customName},function(err,foundCustomInfluencer){
-      return res.render("ejs/influencerRecommandedProducts",{recommendedProducts:foundCustomInfluencer.recommendedProducts,name:customName});
+      return res.render("ejs/influencerRecommendedProducts",{recommendedProducts:foundCustomInfluencer.recommendedProducts,name:customName});
     });
 
 

@@ -29,7 +29,7 @@ const productSchema = new mongoose.Schema(
       { type: mongoose.Schema.Types.ObjectId, ref: "tag", required: false },
     ],
 
-    recommandedBy:[
+    recommendedBy:[
       {
         influencerId:{type:Number,requied:true},
         influencerName:{type:String,required:true},

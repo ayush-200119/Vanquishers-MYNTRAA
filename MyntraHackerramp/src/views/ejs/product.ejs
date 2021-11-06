@@ -61,12 +61,12 @@
                   <div class="modal-body">
                    
                     
-                    <%for(let i=0;i<product.recommandedBy.length;i++){ %>
+                    <%for(let i=0;i<product.recommendedBy.length;i++){ %>
                       <div style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
                         <div class="influencer">
                           <div class="influencer-intro">
-                            <img src="<%= product.recommandedBy[i].influencerImage %>" alt="product" class="influencer-image">
-                              <h5 style="color: #191A19;"><%= product.recommandedBy[i].influencerName %></h5>
+                            <img src="<%= product.recommendedBy[i].influencerImage %>" alt="product" class="influencer-image">
+                              <h5 style="color: #191A19;"><%= product.recommendedBy[i].influencerName %></h5>
                           </div>
                           <button type="button" style="background-color: rgb(255, 63, 108); border:0px; border-radius: 4px; font-size: 0.85rem; font-weight: 500; padding: 0.3rem 1.5rem;" class="btn btn-success">Visit!</button>
                         </div>

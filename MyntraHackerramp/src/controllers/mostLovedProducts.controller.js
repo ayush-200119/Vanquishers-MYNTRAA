@@ -6,8 +6,8 @@ const product =require(__dirname+"/../models/product.model.js");
 const Product=product.model;
 
 function compare(a,b){
-  var dFactor_a=a.recommandedBy.length;
-  var dFactor_b=b.recommandedBy.length;
+  var dFactor_a=a.recommendedBy.length;
+  var dFactor_b=b.recommendedBy.length;
 
   if(dFactor_a>dFactor_b)
   {
