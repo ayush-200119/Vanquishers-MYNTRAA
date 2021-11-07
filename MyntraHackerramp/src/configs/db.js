@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 module.exports = () => {
   return mongoose.connect(
-    "'mongodb://localhost:27017/myntra",
+    "mongodb+srv://ayush-admin:myntra_123@cluster0.yytyd.mongodb.net/myntra",
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,

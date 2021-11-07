@@ -102,5 +102,12 @@
 }
 .View-More{
 	text-decoration: none;
+	color: #000000;
 	font-weight: lighter;
+}
+
+.view-more-text{
+	margin-bottom: 0;
+	font-size: 1.1rem;
+	font-weight: 400;
 }
