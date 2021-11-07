@@ -1,9 +1,9 @@
-const express = require("express");
+// const express = require("express");
 
-const router = express.Router();
+// const router = express.Router();
 
-router.get("/", async (req, res) => {
-  return res.render("ejs/signin", {});
-});
+// router.get("/", async (req, res) => {
+//   return res.render("ejs/signin", {});
+// });
 
-module.exports = router;
+// module.exports = router;

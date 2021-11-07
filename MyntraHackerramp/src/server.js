@@ -7,23 +7,9 @@ const bodyParser = require("body-parser");
 // Import the configration file
 const connect = require("./configs/db");
 
-// Import the controllers
-const productController = require("./controllers/product.controller");
-const productController2 = require("./controllers/product2.controller");
 
 
 const homeController = require("./controllers/home.controller");
-const addressController = require("./controllers/address.controller");
-const bagController = require("./controllers/bag.controller");
-const wishlistController = require("./controllers/wishlist.controller");
-
-const loginController = require("./controllers/login.controller");
-const mensControllers = require("./controllers/mens.controller");
-const modaControllers = require("./controllers/moda.controller");
-const paymentController = require("./controllers/payment.controller");
-const signinController = require("./controllers/signin.controller");
-const userController = require("./controllers/user.controller");
-
 
 const top5Influencer=require("./controllers/Top5Influencers.controller");
 const mostLovedProducts=require("./controllers/mostLovedProducts.controller");
@@ -41,22 +27,16 @@ app.use("/static", express.static(path.join(__dirname, "public")));
 app.set("views", path.join(__dirname, "views/"));
 app.set("view engine", "ejs");
 
-// Create the routes or router handlers
-app.use("/products", productController);
-app.use("/products2", productController2);
 
 app.use("/home", homeController);
-app.use("/address", addressController);
-app.use("/bag", bagController);
 
-app.use("/wishlist", wishlistController);
+// app.use("/wishlist", wishlistController);
 
-app.use("/login", loginController);
-app.use("/mens", mensControllers);
-app.use("/moda", modaControllers);
-app.use("/payment", paymentController);
-app.use("/signin", signinController);
-app.use("/user", userController);
+// app.use("/login", loginController);
+
+// app.use("/signin", signinController);
+// app.use("/user", userController);
+
 app.use("/sellingOptionForinfluencer",selling);
 app.use("/top5influencers",top5Influencer);
 app.use("/mostlovedproducts",mostLovedProducts);
