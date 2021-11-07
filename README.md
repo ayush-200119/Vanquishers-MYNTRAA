@@ -12,7 +12,7 @@ We made this project as a part of our submission for the Myntra HackerRamp: Camp
 `cd src`  
 5)Run the server  
 `npm run server`  
-6)Go to your Browser and locally run the server    
+6)Go to your Browser and run the server locally   
 `http://localhost:3000/home`  
 
 ### Technologies Used 
